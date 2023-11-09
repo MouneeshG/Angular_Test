@@ -1,0 +1,47 @@
+<table border>
+    <tr>
+      <th>Employee_ID</th>
+      <th>FirstName</th>
+      <th>LastName</th>
+      <th>PhoneNumber</th>
+      <th>EmailAddress</th>
+      <th>Salary</th>
+      <th>AddressLine1</th>
+      <th>AddressLine2</th>
+      <th>Street</th>
+      <th>AptNumber</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Zipcode</th>
+      <th>UserName</th>
+      <th>Password</th>
+      <th>DefaultPassword</th>
+      <th>CreatedOn</th>
+      <th>LastUpdate</th>
+      <th>ActiveYN</th>
+      <th>RoleID</th>
+    </tr>
+    <tr *ngFor="let employee of employees">
+      <td>{{ employee.employeeId }}</td>
+      <td>{{ employee.firstName }}</td>
+      <td>{{ employee.lastName }}</td>
+      <td>{{ employee.phoneNumber }}</td>
+      <td>{{ employee.emailAddress }}</td>
+      <td>{{ employee.salary }}</td>
+      <td>{{ employee.addressLine1 }}</td>
+      <td>{{ employee.addressLine2 }}</td>
+      <td>{{ employee.street }}</td>
+      <td>{{ employee.aptNumber }}</td>
+      <td>{{ employee.city }}</td>
+      <td>{{ employee.state }}</td>
+      <td>{{ employee.zipcode }}</td>
+      <td>{{ employee.userName }}</td>
+      <td>{{ employee.password }}</td>
+      <td>{{ employee.defaultPassword }}</td>
+      <td>{{ employee.createdOn }}</td>
+      <td>{{ employee.lastUpdate }}</td>
+      <td>{{ employee.activeYN }}</td>
+      <td>{{ employee.roleId }}</td>
+    </tr>
+  </table>
+  
